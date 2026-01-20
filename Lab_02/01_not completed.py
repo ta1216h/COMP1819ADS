@@ -30,4 +30,9 @@ k = 10
 measure_time(k)
 
 # Now, we make input size larger, 2k, 10k,50k, 200k,1000k 
-# YOUR CODE HERE
+
+measure_time(2*k)
+measure_time(10*k)
+measure_time(50*k)
+measure_time(200*k)
+measure_time(1000*k)
