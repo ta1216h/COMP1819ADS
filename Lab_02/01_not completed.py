@@ -23,11 +23,14 @@ def measure_time(input_size):
     print(sequence)
     start = time.time() # start timer
     print(minmax(sequence)) # execute the method minmax
-    print("Input size=", input_size, " Time taken=", time.time()-start)
+    print("Input size=", input_size, " Time taken=", time.time()-start
 
-
-k = 10
-measure_time(k)
+k = 1000
+measure_time(20)
 
 # Now, we make input size larger, 2k, 10k,50k, 200k,1000k 
-# YOUR CODE HERE
+measure_time(2*k)
+measure_time(10*k)
+measure_time(50*k)
+measure_time(200*k)
+measure_time(1000*k)
